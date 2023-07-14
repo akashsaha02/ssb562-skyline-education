@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #4e4ab9;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Landing Page */
+#index {
+    background-color: #f2f2f2;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-width {
+    float: left;
+    margin-right: 30px;
+
+}
+
+.half-width>h1 {
+    font-size: 40px;
+    ;
+}
+
+span {
+    color: #ff8d8d;
+}
+
+.half-width img {
+    height: 500px;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4e4ab9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Courses Page */
+#courses {
+    height: 500px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+#courses h2{
+    color: #003931;
+    font-size: 30px;
+}
+
+hr{
+    border: 2px solid #333;
+    width: 16%;
+    border-radius: 5px;
+}
+
+.course-item {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.course{
+    border: 2px solid #ff8d8d;
+    margin: 30px;
+    padding: 20px 10px;
+}
+.course img {
+    max-width: 100%;
+    height: 200px;
+}
+
+/* Checkout Page */
+#checkout {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    background-color: #4e4ab9;
+    height: 30px;
+    color: white;
+    padding:0px;
+}
